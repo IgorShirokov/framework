@@ -1,14 +1,18 @@
 {
   "users": [
     {
-      "name": "Igor",
-      "age": 41,
-      "id": 1
+      "id": 1,
+      "name": "Igor updated",
+      "age": 33
     },
     {
       "name": "Igor",
       "age": 41,
       "id": 2
+    },
+    {
+      "name": "new record",
+      "id": 3
     }
   ]
 }

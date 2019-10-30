@@ -1,6 +1,5 @@
 import { User } from './models/User';
 
-const user = new User({ id: 1 });
+const user = new User({ name: 'new record' });
 
-user.fetch();
-console.log(user);
+user.save();
