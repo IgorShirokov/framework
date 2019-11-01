@@ -1,3 +1,4 @@
-import { User } from './models/User';
+import { Collection } from './models/Collection';
 
-const user = new User({ name: 'Igor', age: 45 });
+const collection = new Collection('http://localhost:3000/users');
+collection.fetch();
